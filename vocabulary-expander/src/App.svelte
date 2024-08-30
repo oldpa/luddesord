@@ -17,7 +17,7 @@
 </script>
 
 <main>
-  <h1>Vocabulary Expander</h1>
+  <h1>Luddes ord</h1>
   <WordDisplay language="Swedish" word={currentWords.swedish} />
   <WordDisplay language="Italian" word={currentWords.italian} />
   <WordDisplay language="Japanese" word={currentWords.japanese} />

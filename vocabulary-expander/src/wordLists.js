@@ -65,6 +65,11 @@ export const wordLists = {
     { swedish: "tre", italian: "tre", japanese: "san" },
     { swedish: "fyra", italian: "quattro", japanese: "yon" },
     { swedish: "fem", italian: "cinque", japanese: "go" },
+    { swedish: "sex", italian: "sei", japanese: "roku" },
+    { swedish: "sju", italian: "sette", japanese: "nana" },
+    { swedish: "åtta", italian: "otto", japanese: "hachi" },
+    { swedish: "nio", italian: "nove", japanese: "kyuu" },
+    { swedish: "tio", italian: "dieci", japanese: "juu" },
   ],
   animals: [
     { swedish: "hund", italian: "cane", japanese: "inu" },

@@ -33,6 +33,16 @@
     <option value="transportation">Transportation</option>
     <option value="furniture">Furniture</option>
     <option value="emotions">Emotions</option>
+    <option value="family">Family</option>
+    <option value="sports">Sports</option>
+    <option value="technology">Technology</option>
+    <option value="nature">Nature</option>
+    <option value="hobbies">Hobbies</option>
+    <option value="countries">Countries</option>
+    <option value="school">School</option>
+    <option value="time">Time</option>
+    <option value="music">Music</option>
+    <option value="vehicles">Vehicles</option>
   </select>
   <WordDisplay language="Swedish" word={currentWords.swedish} />
   <WordDisplay language="Italian" word={currentWords.italian} />

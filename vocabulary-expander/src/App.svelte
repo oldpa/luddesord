@@ -1,11 +1,13 @@
 <script>
   import WordDisplay from "./WordDisplay.svelte";
-  import { wordList } from "./wordList.js";
+  import { wordLists } from "./wordLists.js";
 
   let currentWords = {};
+  let selectedList = "basicWords";
 
   function getRandomWord() {
-    return wordList[Math.floor(Math.random() * wordList.length)];
+    const currentWordList = wordLists[selectedList];
+    return currentWordList[Math.floor(Math.random() * currentWordList.length)];
   }
 
   function updateWords() {
@@ -18,6 +20,20 @@
 
 <main>
   <h1>Luddes ord</h1>
+  <select bind:value={selectedList} on:change={updateWords}>
+    <option value="basicWords">Basic Words</option>
+    <option value="colors">Colors</option>
+    <option value="numbers">Numbers</option>
+    <option value="animals">Animals</option>
+    <option value="foodAndDrink">Food and Drink</option>
+    <option value="bodyParts">Body Parts</option>
+    <option value="clothing">Clothing</option>
+    <option value="weather">Weather</option>
+    <option value="professions">Professions</option>
+    <option value="transportation">Transportation</option>
+    <option value="furniture">Furniture</option>
+    <option value="emotions">Emotions</option>
+  </select>
   <WordDisplay language="Swedish" word={currentWords.swedish} />
   <WordDisplay language="Italian" word={currentWords.italian} />
   <WordDisplay language="Japanese" word={currentWords.japanese} />
@@ -49,5 +65,10 @@
   }
   button:hover {
     background-color: #ff6340;
+  }
+  select {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    font-size: 1em;
   }
 </style>

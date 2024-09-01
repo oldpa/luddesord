@@ -205,7 +205,7 @@ export const wordLists = {
     { swedish: "farbror", italian: "zio", japanese: "oji" },
     { swedish: "svägerska", italian: "cognata", japanese: "giri no ane" },
   ],
-  
+
   sports: [
     { swedish: "fotboll", italian: "calcio", japanese: "sakkaa" },
     { swedish: "tennis", italian: "tennis", japanese: "tenisu" },
@@ -218,7 +218,7 @@ export const wordLists = {
     { swedish: "gymnastik", italian: "ginnastica", japanese: "taisou" },
     { swedish: "boxning", italian: "pugilato", japanese: "bokushingu" },
   ],
-  
+
   technology: [
     { swedish: "dator", italian: "computer", japanese: "konpyuuta" },
     { swedish: "smartphone", italian: "smartphone", japanese: "sumaho" },
@@ -226,12 +226,24 @@ export const wordLists = {
     { swedish: "programvara", italian: "software", japanese: "sofutowea" },
     { swedish: "nätverk", italian: "rete", japanese: "nettowaku" },
     { swedish: "molnet", italian: "cloud", japanese: "kuraudo" },
-    { swedish: "artificiell intelligens", italian: "intelligenza artificiale", japanese: "jinkou chinou" },
-    { swedish: "virtuell verklighet", italian: "realtà virtuale", japanese: "baacharu riariti" },
-    { swedish: "cybersäkerhet", italian: "cybersicurezza", japanese: "saibaa sekyuriti" },
+    {
+      swedish: "artificiell intelligens",
+      italian: "intelligenza artificiale",
+      japanese: "jinkou chinou",
+    },
+    {
+      swedish: "virtuell verklighet",
+      italian: "realtà virtuale",
+      japanese: "baacharu riariti",
+    },
+    {
+      swedish: "cybersäkerhet",
+      italian: "cybersicurezza",
+      japanese: "saibaa sekyuriti",
+    },
     { swedish: "blockkedja", italian: "blockchain", japanese: "burokkucheen" },
   ],
-  
+
   nature: [
     { swedish: "träd", italian: "albero", japanese: "ki" },
     { swedish: "flod", italian: "fiume", japanese: "kawa" },
@@ -244,7 +256,7 @@ export const wordLists = {
     { swedish: "glaciär", italian: "ghiacciaio", japanese: "hyouga" },
     { swedish: "dal", italian: "valle", japanese: "tani" },
   ],
-  
+
   hobbies: [
     { swedish: "läsning", italian: "lettura", japanese: "dokusho" },
     { swedish: "matlagning", italian: "cucina", japanese: "ryouri" },
@@ -255,9 +267,13 @@ export const wordLists = {
     { swedish: "fiske", italian: "pesca", japanese: "tsuri" },
     { swedish: "stickning", italian: "maglia", japanese: "amimono" },
     { swedish: "skrivande", italian: "scrittura", japanese: "sakubun" },
-    { swedish: "samla", italian: "collezionismo", japanese: "shumi no shuushuu" },
+    {
+      swedish: "samla",
+      italian: "collezionismo",
+      japanese: "shumi no shuushuu",
+    },
   ],
-  
+
   countries: [
     { swedish: "Sverige", italian: "Svezia", japanese: "Suweeden" },
     { swedish: "Italien", italian: "Italia", japanese: "Itaria" },
@@ -270,7 +286,7 @@ export const wordLists = {
     { swedish: "Australien", italian: "Australia", japanese: "Oosutoraria" },
     { swedish: "Indien", italian: "India", japanese: "Indo" },
   ],
-  
+
   school: [
     { swedish: "klassrum", italian: "aula", japanese: "kyoushitsu" },
     { swedish: "lärare", italian: "insegnante", japanese: "sensei" },
@@ -283,7 +299,7 @@ export const wordLists = {
     { swedish: "examen", italian: "esame", japanese: "shiken" },
     { swedish: "bibliotek", italian: "biblioteca", japanese: "toshokan" },
   ],
-  
+
   time: [
     { swedish: "sekund", italian: "secondo", japanese: "byou" },
     { swedish: "minut", italian: "minuto", japanese: "fun" },
@@ -296,7 +312,7 @@ export const wordLists = {
     { swedish: "århundrade", italian: "secolo", japanese: "seiki" },
     { swedish: "årtusende", italian: "millennio", japanese: "sennen" },
   ],
-  
+
   music: [
     { swedish: "gitarr", italian: "chitarra", japanese: "gitaa" },
     { swedish: "piano", italian: "pianoforte", japanese: "piano" },
@@ -309,7 +325,7 @@ export const wordLists = {
     { swedish: "harpa", italian: "arpa", japanese: "haapu" },
     { swedish: "cello", italian: "violoncello", japanese: "chero" },
   ],
-  
+
   vehicles: [
     { swedish: "bil", italian: "automobile", japanese: "jidousha" },
     { swedish: "motorcykel", italian: "motocicletta", japanese: "ootobaai" },
@@ -321,5 +337,58 @@ export const wordLists = {
     { swedish: "båt", italian: "barca", japanese: "fune" },
     { swedish: "ubåt", italian: "sottomarino", japanese: "sensuikan" },
     { swedish: "rymdskepp", italian: "astronave", japanese: "uchuu sen" },
+  ],
+
+  verbs: [
+    { swedish: "gå", italian: "andare", japanese: "iku" },
+    { swedish: "springa", italian: "correre", japanese: "hashiru" },
+    { swedish: "äta", italian: "mangiare", japanese: "taberu" },
+    { swedish: "dricka", italian: "bere", japanese: "nomu" },
+    { swedish: "sova", italian: "dormire", japanese: "neru" },
+    { swedish: "prata", italian: "parlare", japanese: "hanasu" },
+    { swedish: "lyssna", italian: "ascoltare", japanese: "kiku" },
+    { swedish: "se", italian: "vedere", japanese: "miru" },
+    { swedish: "skriva", italian: "scrivere", japanese: "kaku" },
+    { swedish: "läsa", italian: "leggere", japanese: "yomu" },
+    { swedish: "arbeta", italian: "lavorare", japanese: "hataraku" },
+    { swedish: "studera", italian: "studiare", japanese: "benkyou suru" },
+    { swedish: "leka", italian: "giocare", japanese: "asobu" },
+    { swedish: "simma", italian: "nuotare", japanese: "oyogu" },
+    { swedish: "sjunga", italian: "cantare", japanese: "utau" },
+    { swedish: "dansa", italian: "ballare", japanese: "odoru" },
+    { swedish: "köpa", italian: "comprare", japanese: "kau" },
+    { swedish: "sälja", italian: "vendere", japanese: "uru" },
+    { swedish: "ge", italian: "dare", japanese: "ageru" },
+    { swedish: "ta", italian: "prendere", japanese: "toru" },
+    { swedish: "öppna", italian: "aprire", japanese: "akeru" },
+    { swedish: "stänga", italian: "chiudere", japanese: "shimeru" },
+    { swedish: "börja", italian: "iniziare", japanese: "hajimeru" },
+    { swedish: "sluta", italian: "finire", japanese: "owaru" },
+    { swedish: "tänka", italian: "pensare", japanese: "kangaeru" },
+    { swedish: "förstå", italian: "capire", japanese: "wakaru" },
+    { swedish: "glömma", italian: "dimenticare", japanese: "wasureru" },
+    { swedish: "komma ihåg", italian: "ricordare", japanese: "oboeru" },
+    { swedish: "hjälpa", italian: "aiutare", japanese: "tasukeru" },
+    { swedish: "lära", italian: "insegnare", japanese: "oshieru" },
+    { swedish: "lära sig", italian: "imparare", japanese: "manabu" },
+    { swedish: "resa", italian: "viaggiare", japanese: "ryokou suru" },
+    { swedish: "flyga", italian: "volare", japanese: "tobu" },
+    { swedish: "köra", italian: "guidare", japanese: "unten suru" },
+    { swedish: "vinna", italian: "vincere", japanese: "katsu" },
+    { swedish: "förlora", italian: "perdere", japanese: "makeru" },
+    { swedish: "skratta", italian: "ridere", japanese: "warau" },
+    { swedish: "gråta", italian: "piangere", japanese: "naku" },
+    { swedish: "le", italian: "sorridere", japanese: "hohoemu" },
+    { swedish: "koka", italian: "cucinare", japanese: "ryouri suru" },
+    { swedish: "baka", italian: "cuocere al forno", japanese: "yaku" },
+    { swedish: "tvätta", italian: "lavare", japanese: "arau" },
+    { swedish: "städa", italian: "pulire", japanese: "souji suru" },
+    { swedish: "bygga", italian: "costruire", japanese: "tsukuru" },
+    { swedish: "reparera", italian: "riparare", japanese: "naosu" },
+    { swedish: "måla", italian: "dipingere", japanese: "egaku" },
+    { swedish: "rita", italian: "disegnare", japanese: "kaku" },
+    { swedish: "klippa", italian: "tagliare", japanese: "kiru" },
+    { swedish: "sy", italian: "cucire", japanese: "nuu" },
+    { swedish: "vänta", italian: "aspettare", japanese: "matsu" },
   ],
 };

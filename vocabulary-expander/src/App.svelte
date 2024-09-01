@@ -43,6 +43,7 @@
     <option value="time">Time</option>
     <option value="music">Music</option>
     <option value="vehicles">Vehicles</option>
+    <option value="verbs">Verbs</option>
   </select>
   <WordDisplay language="Swedish" word={currentWords.swedish} />
   <WordDisplay language="Italian" word={currentWords.italian} />
